@@ -1,0 +1,98 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela ROund', sans-serif;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.imgDiv {
+    background-image: url("pictures/bgImage.png");
+    background-size: cover; 
+    margin: 4% auto;
+    width: 70%;
+    height: 90vh; 
+}
+.aboutMe {
+    padding-top: 47px;
+    padding-left: 135px;
+    padding-right: 5%;
+    position: relative;
+}
+
+p.myHeader {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+p.subHeader {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+ul {
+    font-size: 15px;
+    color: grey;
+    padding-top: 40px;
+}
+
+.info {
+    border: double;
+    background-color: pink;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    padding-left: 100px;
+    text-align: left;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+  .grid-item {
+    background-color: rgba(240, 13, 13, 0.8);
+    border: 1px solid #000000cc;
+    padding-top: 20px;
+    /* padding: 20px; */
+    padding-right: 1px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+.barCodeImg img {
+    float: right;
+    position: absolute;
+    width: 100px;
+    top: 220px; 
+    right: 210px;
+}
+
+.dp img {
+    float: left;
+    position: absolute;
+    top: 220px; 
+    left: 80px;
+    height: 125px;
+    
+}
+
+img {
+    border: solid 5px white;
+}
+
+ul li {
+    list-style-type: none;
+   }
+
+
+
+
+
